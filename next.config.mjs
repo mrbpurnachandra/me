@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  distDir: "docs"
+  assetPrefix: "/",
+  trailingSlash: true,
+  distDir: "docs",
 };
 
 export default nextConfig;
